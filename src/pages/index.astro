@@ -1,0 +1,144 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="Austrijos lietuvių bendruomenė"
+  description="Savanoriška, nevyriausybinė, politiškai neutrali, ne pelno siekianti organizacija, siekianti vienyti ir bendrai veiklai telkti Austrijoje gyvenančius lietuvius bei Lietuvos draugus."
+>
+  <div
+    class="flex md:absolute relative flex-col items-center justify-center space-y-8 h-full inset-0"
+  >
+    {/*Logo*/}
+    <div class="p-4">
+      <div class="bg-white/60 rounded-lg p-4">
+        <div class="flex items-center gap-3">
+          <div>
+            <h1
+              class="text-sm font-medium uppercase !leading-tight sm:text-base md:text-xl"
+            >
+              Austrijos lietuvių bendruomenė
+            </h1>
+            <h2 class="text-xs font-medium !leading-tight md:text-base">
+              Litauische Gemeinschaft in Österreich
+            </h2>
+          </div>
+
+          <div class="shrink-0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="64"
+              viewBox="0 0 48 64"
+              fill="none"
+              class="size-16 md:size-24 object-cover"
+            >
+              <g stroke="#000" stroke-line-join="round" clip-path="url(#a)">
+                <path
+                  fill="#fff"
+                  d="M19.89 38.18c-3.494-5.59-8.964-7.071-8.964-7.071s.129 4.951 3.754 10.653c3.626 5.702 14.808 16.619 14.808 16.619s-6.103-14.61-9.598-20.2Z"
+                ></path>
+                <path
+                  fill="#C63631"
+                  d="M23.798 32.32c-6.69-2.082-12.816-.43-12.816-.43s3.431 3.894 10.301 5.98c6.87 2.085 23.471 3.259 23.471 3.259s-14.266-6.728-20.956-8.81Z"
+                ></path>
+                <path
+                  fill="#467523"
+                  d="M13.704 21.248c-3.785 5.432-3.123 11.07-3.123 11.07s3.85-2.224 7.681-7.814 10.52-21.063 10.52-21.063-11.294 12.375-15.079 17.807Z"
+                ></path>
+                <path
+                  fill="#FFB617"
+                  d="M5.237 22.55c1.124 6.35 5.632 9.638 5.632 9.638s1.38-3.821 0-11.265C9.489 13.479 3.968.734 3.968.734s.146 15.467 1.27 21.817Z"
+                ></path>
+                <path
+                  fill="#C63631"
+                  d="M11.75 43.065c1.258-6.328-.707-11.82-.707-11.82S6.8 35.273 5.563 41.763C4.327 48.252 6.07 63 6.07 63s4.42-13.607 5.679-19.935Z"
+                ></path>
+                <path
+                  fill="#D0112B"
+                  d="M20.541 25.807c-6.733 1.963-9.92 6.07-9.92 6.07s4.853 1.23 11.733-.828c6.88-2.058 21.424-10.1 21.424-10.1s-16.503 2.895-23.236 4.858Z"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="a">
+                  <path fill="#fff" d="M0 0h48v64H0z"></path>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/*Links*/}
+    <div class="flex flex-col md:flex-row gap-x-8 gap-y-3">
+      <a
+        href="https://www.facebook.com/AustrijosLietuviuBendruomene/"
+        class="flex items-center gap-2 hover:text-blue-600"
+      >
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="64"
+            height="64"
+            viewBox="0 0 64 64"
+            fill="none"
+            class="size-8"
+          >
+            <path
+              fill="currentColor"
+              d="M35.877 57V35.125h7.354l1.399-9.05h-8.753v-5.87c0-2.477 1.222-4.89 5.143-4.89H45V7.611S41.388 7 37.935 7c-7.21 0-11.922 4.334-11.922 12.178v6.897H18v9.05h8.013V57h9.864Z"
+            ></path>
+          </svg>
+        </div>
+        <div>facebook grupe</div>
+      </a>
+      <a
+        href="https://www.instagram.com/austrijoslb/"
+        class="flex items-center gap-2 hover:text-blue-600"
+      >
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            width="64"
+            height="64"
+            viewBox="0 0 64 64"
+            class="size-8"
+          >
+            <path
+              fill="currentColor"
+              d="M45.075 15.358a2.973 2.973 0 1 0 0 5.943 2.973 2.973 0 0 0 0-5.943ZM31.862 39.651c-4.41 0-7.998-3.586-7.998-7.996s3.588-7.998 7.998-7.998 7.996 3.588 7.996 7.998-3.587 7.996-7.996 7.996Zm0-20.482c-6.885 0-12.485 5.602-12.485 12.486 0 6.883 5.6 12.483 12.485 12.483 6.883 0 12.483-5.6 12.483-12.483 0-6.884-5.6-12.486-12.483-12.486Z"
+            ></path>
+            <path
+              fill="currentColor"
+              d="M21.533 11.077c-5.767 0-10.458 4.69-10.458 10.457v20.24c0 5.767 4.691 10.458 10.458 10.458h20.239c5.767 0 10.459-4.691 10.459-10.457v-20.24c0-5.768-4.692-10.458-10.46-10.458H21.534Zm20.239 45.924H21.533c-8.396 0-15.227-6.83-15.227-15.226v-20.24c0-8.399 6.831-15.229 15.227-15.229h20.239C50.168 6.306 57 13.136 57 21.534v20.24c0 8.397-6.832 15.227-15.228 15.227Z"
+            ></path>
+          </svg>
+        </div>
+        <div>instagram grupe</div>
+      </a>
+      <a
+        href="https://t.me/austrijoslb/"
+        class="flex items-center gap-3 hover:text-blue-600"
+      >
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            width="64"
+            height="64"
+            viewBox="0 0 64 64"
+            class="size-8"
+          >
+            <path
+              fill="currentColor"
+              d="M8.31 29.598s23.884-9.88 32.168-13.358c3.174-1.391 13.942-5.843 13.942-5.843s4.97-1.947 4.555 2.783c-.138 1.948-1.242 8.765-2.346 16.139-1.657 10.435-3.451 21.843-3.451 21.843s-.277 3.2-2.623 3.758c-2.347.556-6.212-1.948-6.903-2.506-.552-.416-10.354-6.678-13.942-9.74-.967-.833-2.071-2.503.136-4.45 4.97-4.592 10.907-10.297 14.497-13.915 1.655-1.668 3.313-5.564-3.59-.833a1170.958 1170.958 0 0 1-19.465 13.216s-2.21 1.392-6.351.14c-4.142-1.252-8.974-2.922-8.974-2.922s-3.311-2.088 2.348-4.312Z"
+            ></path>
+          </svg>
+        </div>
+        <div>telegram grupe</div>
+      </a>
+    </div>
+  </div>
+</Layout>
