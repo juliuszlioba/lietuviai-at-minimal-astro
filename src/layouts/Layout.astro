@@ -4,6 +4,7 @@ import "@fontsource-variable/noto-sans";
 
 import "../styles/global.css";
 import BackgroundImage from "../assets/images/pattern_01_transparent.png";
+import Footer from "../components/Footer.astro";
 
 // import Navigation from "../components/Navigation.astro";
 
@@ -43,6 +44,7 @@ interface Props {
       <main class="relative flex flex-col z-10 h-full min-h-screen">
         <!-- <Navigation /> -->
         <slot />
+        <Footer />
       </main>
     </div>
   </body>
